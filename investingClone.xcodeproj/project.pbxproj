@@ -15,6 +15,7 @@
 		9997DD0F29363AB1000713F6 /* investingCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD0E29363AB1000713F6 /* investingCloneUITests.swift */; };
 		9997DD1129363AB1000713F6 /* investingCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD1029363AB1000713F6 /* investingCloneUITestsLaunchTests.swift */; };
 		9997DD1E29363B4B000713F6 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD1D29363B4B000713F6 /* data.swift */; };
+		99D8936929363C7700124BC8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D8936829363C7700124BC8 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9997DD0E29363AB1000713F6 /* investingCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneUITests.swift; sourceTree = "<group>"; };
 		9997DD1029363AB1000713F6 /* investingCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9997DD1D29363B4B000713F6 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		99D8936829363C7700124BC8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +98,9 @@
 		9997DCF229363AAF000713F6 /* investingClone */ = {
 			isa = PBXGroup;
 			children = (
+				99D8936A29363CA200124BC8 /* VIEWS */,
 				9997DD1D29363B4B000713F6 /* data.swift */,
 				9997DCF329363AAF000713F6 /* investingCloneApp.swift */,
-				9997DCF529363AAF000713F6 /* ContentView.swift */,
 				9997DCF729363AB1000713F6 /* Assets.xcassets */,
 				9997DCF929363AB1000713F6 /* Preview Content */,
 			);
@@ -128,6 +130,15 @@
 				9997DD1029363AB1000713F6 /* investingCloneUITestsLaunchTests.swift */,
 			);
 			path = investingCloneUITests;
+			sourceTree = "<group>";
+		};
+		99D8936A29363CA200124BC8 /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				99D8936829363C7700124BC8 /* LoginView.swift */,
+				9997DCF529363AAF000713F6 /* ContentView.swift */,
+			);
+			path = VIEWS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			files = (
 				9997DCF629363AAF000713F6 /* ContentView.swift in Sources */,
 				9997DD1E29363B4B000713F6 /* data.swift in Sources */,
+				99D8936929363C7700124BC8 /* LoginView.swift in Sources */,
 				9997DCF429363AAF000713F6 /* investingCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
