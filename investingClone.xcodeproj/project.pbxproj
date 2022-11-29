@@ -14,6 +14,7 @@
 		9997DD0529363AB1000713F6 /* investingCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD0429363AB1000713F6 /* investingCloneTests.swift */; };
 		9997DD0F29363AB1000713F6 /* investingCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD0E29363AB1000713F6 /* investingCloneUITests.swift */; };
 		9997DD1129363AB1000713F6 /* investingCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD1029363AB1000713F6 /* investingCloneUITestsLaunchTests.swift */; };
+		9997DD1E29363B4B000713F6 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD1D29363B4B000713F6 /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9997DD0A29363AB1000713F6 /* investingCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = investingCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9997DD0E29363AB1000713F6 /* investingCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneUITests.swift; sourceTree = "<group>"; };
 		9997DD1029363AB1000713F6 /* investingCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9997DD1D29363B4B000713F6 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		9997DCF229363AAF000713F6 /* investingClone */ = {
 			isa = PBXGroup;
 			children = (
+				9997DD1D29363B4B000713F6 /* data.swift */,
 				9997DCF329363AAF000713F6 /* investingCloneApp.swift */,
 				9997DCF529363AAF000713F6 /* ContentView.swift */,
 				9997DCF729363AB1000713F6 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9997DCF629363AAF000713F6 /* ContentView.swift in Sources */,
+				9997DD1E29363B4B000713F6 /* data.swift in Sources */,
 				9997DCF429363AAF000713F6 /* investingCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
