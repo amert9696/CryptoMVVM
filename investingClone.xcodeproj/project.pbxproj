@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		9997DCF429363AAF000713F6 /* investingCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DCF329363AAF000713F6 /* investingCloneApp.swift */; };
 		9997DCF629363AAF000713F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DCF529363AAF000713F6 /* ContentView.swift */; };
-		9997DCF829363AB1000713F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9997DCF729363AB1000713F6 /* Assets.xcassets */; };
 		9997DCFB29363AB1000713F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9997DCFA29363AB1000713F6 /* Preview Assets.xcassets */; };
 		9997DD0529363AB1000713F6 /* investingCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD0429363AB1000713F6 /* investingCloneTests.swift */; };
 		9997DD0F29363AB1000713F6 /* investingCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD0E29363AB1000713F6 /* investingCloneUITests.swift */; };
 		9997DD1129363AB1000713F6 /* investingCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD1029363AB1000713F6 /* investingCloneUITestsLaunchTests.swift */; };
-		9997DD1E29363B4B000713F6 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9997DD1D29363B4B000713F6 /* data.swift */; };
-		99D8936929363C7700124BC8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D8936829363C7700124BC8 /* LoginView.swift */; };
+		99ED66D7294217D80084A8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99ED66D6294217D80084A8A8 /* Assets.xcassets */; };
+		99ED66DA294219170084A8A8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66D9294219170084A8A8 /* Color.swift */; };
+		99ED66E029421DBB0084A8A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66DF29421DBB0084A8A8 /* HomeView.swift */; };
+		99ED66E429421F1A0084A8A8 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66E329421F1A0084A8A8 /* CircleButtonView.swift */; };
+		99ED66E629434C1C0084A8A8 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66E529434C1C0084A8A8 /* CircleButtonAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,15 +41,17 @@
 		9997DCF029363AAF000713F6 /* investingClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = investingClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9997DCF329363AAF000713F6 /* investingCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneApp.swift; sourceTree = "<group>"; };
 		9997DCF529363AAF000713F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9997DCF729363AB1000713F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9997DCFA29363AB1000713F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9997DD0029363AB1000713F6 /* investingCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = investingCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9997DD0429363AB1000713F6 /* investingCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneTests.swift; sourceTree = "<group>"; };
 		9997DD0A29363AB1000713F6 /* investingCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = investingCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9997DD0E29363AB1000713F6 /* investingCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneUITests.swift; sourceTree = "<group>"; };
 		9997DD1029363AB1000713F6 /* investingCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9997DD1D29363B4B000713F6 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
-		99D8936829363C7700124BC8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		99ED66D6294217D80084A8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		99ED66D9294219170084A8A8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		99ED66DF29421DBB0084A8A8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		99ED66E329421F1A0084A8A8 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		99ED66E529434C1C0084A8A8 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +102,12 @@
 		9997DCF229363AAF000713F6 /* investingClone */ = {
 			isa = PBXGroup;
 			children = (
-				99D8936A29363CA200124BC8 /* VIEWS */,
-				9997DD1D29363B4B000713F6 /* data.swift */,
 				9997DCF329363AAF000713F6 /* investingCloneApp.swift */,
-				9997DCF729363AB1000713F6 /* Assets.xcassets */,
+				99ED66D8294218F30084A8A8 /* Extensions */,
+				99ED66E7294353280084A8A8 /* Models */,
+				99ED66DB29421D5F0084A8A8 /* Core */,
+				9997DCF529363AAF000713F6 /* ContentView.swift */,
+				99ED66D6294217D80084A8A8 /* Assets.xcassets */,
 				9997DCF929363AB1000713F6 /* Preview Content */,
 			);
 			path = investingClone;
@@ -132,13 +138,69 @@
 			path = investingCloneUITests;
 			sourceTree = "<group>";
 		};
-		99D8936A29363CA200124BC8 /* VIEWS */ = {
+		99ED66D8294218F30084A8A8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				99D8936829363C7700124BC8 /* LoginView.swift */,
-				9997DCF529363AAF000713F6 /* ContentView.swift */,
+				99ED66D9294219170084A8A8 /* Color.swift */,
 			);
-			path = VIEWS;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		99ED66DB29421D5F0084A8A8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				99ED66E129421EE10084A8A8 /* Components */,
+				99ED66DC29421D7F0084A8A8 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		99ED66DC29421D7F0084A8A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				99ED66DE29421D8C0084A8A8 /* ViewModels */,
+				99ED66DD29421D870084A8A8 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		99ED66DD29421D870084A8A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99ED66DF29421DBB0084A8A8 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99ED66DE29421D8C0084A8A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		99ED66E129421EE10084A8A8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				99ED66E229421EFE0084A8A8 /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		99ED66E229421EFE0084A8A8 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				99ED66E329421F1A0084A8A8 /* CircleButtonView.swift */,
+				99ED66E529434C1C0084A8A8 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		99ED66E7294353280084A8A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9997DCFB29363AB1000713F6 /* Preview Assets.xcassets in Resources */,
-				9997DCF829363AB1000713F6 /* Assets.xcassets in Resources */,
+				99ED66D7294217D80084A8A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +334,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9997DCF629363AAF000713F6 /* ContentView.swift in Sources */,
-				9997DD1E29363B4B000713F6 /* data.swift in Sources */,
-				99D8936929363C7700124BC8 /* LoginView.swift in Sources */,
+				99ED66E029421DBB0084A8A8 /* HomeView.swift in Sources */,
+				99ED66DA294219170084A8A8 /* Color.swift in Sources */,
+				99ED66E429421F1A0084A8A8 /* CircleButtonView.swift in Sources */,
 				9997DCF429363AAF000713F6 /* investingCloneApp.swift in Sources */,
+				99ED66E629434C1C0084A8A8 /* CircleButtonAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,11 +500,13 @@
 				DEVELOPMENT_TEAM = AWNHW9BPZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoMVVM;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,11 +531,13 @@
 				DEVELOPMENT_TEAM = AWNHW9BPZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoMVVM;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
