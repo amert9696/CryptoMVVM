@@ -28,6 +28,7 @@
 		99ED66FB2948CEED0084A8A8 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66FA2948CEED0084A8A8 /* CoinImageView.swift */; };
 		99ED66FD2948D24A0084A8A8 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66FC2948D24A0084A8A8 /* CoinImageService.swift */; };
 		99ED66FF2948D5800084A8A8 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66FE2948D5800084A8A8 /* CoinImageViewModel.swift */; };
+		99ED67012948F6230084A8A8 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED67002948F6230084A8A8 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		99ED66FA2948CEED0084A8A8 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		99ED66FC2948D24A0084A8A8 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		99ED66FE2948D5800084A8A8 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		99ED67002948F6230084A8A8 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalFileManager.swift; path = ../../../../Downloads/LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				99ED66F72948C6470084A8A8 /* NetworkingManager.swift */,
+				99ED67002948F6230084A8A8 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				99ED66EB294364260084A8A8 /* CoinRowView.swift in Sources */,
 				99ED66F129473C7A0084A8A8 /* HomeViewModel.swift in Sources */,
 				9997DCF629363AAF000713F6 /* ContentView.swift in Sources */,
+				99ED67012948F6230084A8A8 /* LocalFileManager.swift in Sources */,
 				99ED66FD2948D24A0084A8A8 /* CoinImageService.swift in Sources */,
 				99ED66E029421DBB0084A8A8 /* HomeView.swift in Sources */,
 				99ED66FB2948CEED0084A8A8 /* CoinImageView.swift in Sources */,
