@@ -19,15 +19,11 @@ struct PortfolioView: View {
         NavigationView {
             ScrollView{
                 VStack(alignment: .leading, spacing: 0){
-                    
                     SearchBarView(searchText: $vm.searchText)
                     coinLogoList
-                    
                     if selectedCoin != nil {
                         portfolioInputSection
                     }
-                    
-                    
                 }
             }.navigationTitle("Edit Portfolio")
                 .toolbar(content: {
@@ -37,7 +33,14 @@ struct PortfolioView: View {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         trailingNavBarButtons
                     }
+                }).onChange(of: vm.searchText, perform: { value in
+                    if value == ""{
+                        removeSelectedCoin()
+                    }
+                     
+                    
                 })
+        
             
         }
     }
@@ -48,32 +51,25 @@ struct PortfolioView_Previews: PreviewProvider {
         PortfolioView()
             .environmentObject(dev.homeVM)
     }
-    
 }
-
 extension PortfolioView{
     
-    
     private var coinLogoList: some View{
-        
         ScrollView(.horizontal , showsIndicators: false,content: {
-            
             LazyHStack(spacing: 10){
-                ForEach(vm.allCoins){ coin in
-                    
+                ForEach(vm.searchText.isEmpty ? vm.portfolioCoins : vm.allCoins){ coin in
                   CoinLogoView(coin: coin)
                         .frame(width: 75)
                         .padding(4)
                         .onTapGesture {
                             withAnimation(.easeIn){
-                                selectedCoin = coin
+                                updateSelectedCoin(coin: coin)
                             }
                         }
                         .background(
                         RoundedRectangle(cornerRadius: 10)
                             .stroke(selectedCoin?.id == coin.id ? Color.theme.green : Color.clear,lineWidth: 1)
                         )
-                    
                 }
             }
             .frame(height: 120)
@@ -81,6 +77,17 @@ extension PortfolioView{
         })
     }
     
+    private func updateSelectedCoin(coin : CoinModel){
+        selectedCoin = coin
+        
+        if let portfolioCoin = vm.portfolioCoins.first(where: {$0.id == coin.id}),
+            let amount = portfolioCoin.currentHoldings{
+                quantitiyText = "\(amount)"
+            } else{
+                quantitiyText = ""
+            }
+        
+    }
     
     private func getCurrentValue() -> Double {
         
@@ -127,11 +134,8 @@ extension PortfolioView{
                 saveButtonPressed()
             },label: {
                 Text("Save".uppercased())}
-            
-            
             ).opacity(
                 (selectedCoin != nil && selectedCoin?.currentHoldings != Double(quantitiyText)) ? 1.0 : 0.0
-            
             )
         }
         .font(.headline)
@@ -139,10 +143,13 @@ extension PortfolioView{
     
     private func saveButtonPressed(){
         
-        guard let  coin = selectedCoin else { return }
+        guard
+        let  coin = selectedCoin,
+        let amount = Double(quantitiyText)
+        else { return }
         
         // save to portfolio
-        
+        vm.updatePortfolio(coin: coin, amount: amount)
         
         // show checkmark
         
