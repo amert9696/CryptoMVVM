@@ -1,9 +1,3 @@
-//
-//  CoinRowView.swift
-//  investingClone
-//
-//  Created by Ali Mert Güleç on 9.12.2022.
-//
 
 import SwiftUI
 
@@ -20,6 +14,9 @@ struct CoinRowView: View {
             rightColumn
         }
         .font(.subheadline)
+        .background(
+            Color.theme.background.opacity(0.001)
+        )
     }
 }
 struct CoinRowView_Previews: PreviewProvider {
