@@ -29,6 +29,7 @@ struct PortfolioView: View {
                 .toolbar(content: {
                     ToolbarItem(placement: .navigationBarLeading) {
                         XMarkButton()
+                           
                     }
                     ToolbarItem(placement: .navigationBarTrailing) {
                         trailingNavBarButtons
@@ -40,6 +41,7 @@ struct PortfolioView: View {
                      
                     
                 })
+                
         
             
         }
