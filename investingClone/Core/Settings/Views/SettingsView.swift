@@ -81,7 +81,7 @@ extension SettingsView {
 //    }
     
     private var coinGeckoSection: some View {
-        Section(header: Text("CoinGecko")){
+        Section(header: Text("WEB API WEBSITE INFORMATION")){
             
             VStack(alignment: .leading){
                 Image("coingecko")
@@ -103,12 +103,12 @@ extension SettingsView {
         Section(header: Text("Developer Information")){
             
             VStack(alignment:.leading){
-                VStack(alignment: .leading){
+                VStack(alignment: .center){
                     Image("me")
                         .resizable()
                         .scaledToFit()
-                        .frame(height: 100)
-                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                        .frame(height: 150)
+                        .clipShape(RoundedRectangle(cornerRadius: 25))
                     Text("I am an iOS developer and 3rd year Computer Engineering Student. The project benefits from multi-threading,publishers/subscribers, and data persistance.If you want to contact me, you can reach the following accounts.")
                         .font(.callout)
                         .fontWeight(.medium)
@@ -120,10 +120,10 @@ extension SettingsView {
             twitterAccountButton
             mediumButton
             linkedInButton
-              
+            resumeLink
                         }
                     }
-        }
+        
 //    private var applicationSection: some View {
 //        Section(header: Text("Developer")){
 //            Link("Terms of Service",destination: defaultURL)
@@ -177,7 +177,7 @@ private var linkedInButton : some View {
             Image("linked-in")
                                 .resizable()
                                 .frame(width: 30,height: 30)
-                                .clipShape(RoundedRectangle(cornerRadius: 20))
+                                .clipShape(RoundedRectangle(cornerRadius: 8))
             
         }
     }
@@ -197,5 +197,20 @@ private var mediumButton: some View {
         }
     }
     
+}
+    private var resumeLink: some View {
+        Button(action: {
+                guard let url = URL(string:"https://online.flippingbook.com/view/475124969/") else { return }
+                        UIApplication.shared.open(url)
+                    }) {
+                        HStack{
+                            Text("You can see my resume")
+                            Image(systemName: "doc.text")
+                                                .resizable()
+                                                .frame(width: 30,height: 30)
+                                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                        }
+                    }
+    }
 }
 
