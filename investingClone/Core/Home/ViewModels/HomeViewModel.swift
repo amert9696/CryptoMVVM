@@ -143,9 +143,7 @@ class HomeViewModel: ObservableObject {
             }
         
     }
-    
-    
-    
+
     private func mapGlobalMarketData(marketDataModel: MarketDataModel?,portfolioCoins: [CoinModel]) -> [StatisticModel]{
         
         var stats : [StatisticModel] = []
@@ -174,7 +172,7 @@ class HomeViewModel: ObservableObject {
             .reduce(0, +)
         
         
-        let percentageChange = ((portfolioValue - previousValue) / previousValue) * 100
+        let percentageChange = ((portfolioValue - previousValue) / previousValue)
         
         let portfolio = StatisticModel(tittle: "Portfolio Value", value: portfolioValue.asCurrencyWith2Decimals(),percentageChange: percentageChange)
         

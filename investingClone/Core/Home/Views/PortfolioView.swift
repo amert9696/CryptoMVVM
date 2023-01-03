@@ -25,10 +25,15 @@ struct PortfolioView: View {
                         portfolioInputSection
                     }
                 }
-            }.navigationTitle("Edit Portfolio")
+            }.background(
+                Color.theme.background
+                    .ignoresSafeArea()
+            )
+            .navigationTitle("Edit Portfolio")
                 .toolbar(content: {
                     ToolbarItem(placement: .navigationBarLeading) {
                         XMarkButton()
+                           
                     }
                     ToolbarItem(placement: .navigationBarTrailing) {
                         trailingNavBarButtons
@@ -40,6 +45,7 @@ struct PortfolioView: View {
                      
                     
                 })
+                
         
             
         }
