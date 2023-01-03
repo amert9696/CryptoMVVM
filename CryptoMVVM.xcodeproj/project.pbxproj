@@ -50,7 +50,6 @@
 		99ED66FB2948CEED0084A8A8 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66FA2948CEED0084A8A8 /* CoinImageView.swift */; };
 		99ED66FD2948D24A0084A8A8 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66FC2948D24A0084A8A8 /* CoinImageService.swift */; };
 		99ED66FF2948D5800084A8A8 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED66FE2948D5800084A8A8 /* CoinImageViewModel.swift */; };
-		99ED67012948F6230084A8A8 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED67002948F6230084A8A8 /* LocalFileManager.swift */; };
 		99ED6703294A27FE0084A8A8 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED6702294A27FE0084A8A8 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,12 +88,12 @@
 		99495F0229548DEE00703E06 /* CoinDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailModel.swift; sourceTree = "<group>"; };
 		99495F042954909600703E06 /* DetailViewModell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModell.swift; sourceTree = "<group>"; };
 		99495F06295490EC00703E06 /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
-		9997DCF029363AAF000713F6 /* investingClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = investingClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9997DCF029363AAF000713F6 /* CryptoMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9997DCF329363AAF000713F6 /* investingCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneApp.swift; sourceTree = "<group>"; };
 		9997DCFA29363AB1000713F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9997DD0029363AB1000713F6 /* investingCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = investingCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9997DD0029363AB1000713F6 /* CryptoMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9997DD0429363AB1000713F6 /* investingCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneTests.swift; sourceTree = "<group>"; };
-		9997DD0A29363AB1000713F6 /* investingCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = investingCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9997DD0A29363AB1000713F6 /* CryptoMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9997DD0E29363AB1000713F6 /* investingCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneUITests.swift; sourceTree = "<group>"; };
 		9997DD1029363AB1000713F6 /* investingCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = investingCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		99A8B815294B0A2600162BCA /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
@@ -118,7 +117,6 @@
 		99ED66FA2948CEED0084A8A8 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		99ED66FC2948D24A0084A8A8 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		99ED66FE2948D5800084A8A8 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
-		99ED67002948F6230084A8A8 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalFileManager.swift; path = ../../../../Downloads/LocalFileManager.swift; sourceTree = "<group>"; };
 		99ED6702294A27FE0084A8A8 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -219,9 +217,9 @@
 		9997DCF129363AAF000713F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9997DCF029363AAF000713F6 /* investingClone.app */,
-				9997DD0029363AB1000713F6 /* investingCloneTests.xctest */,
-				9997DD0A29363AB1000713F6 /* investingCloneUITests.xctest */,
+				9997DCF029363AAF000713F6 /* CryptoMVVM.app */,
+				9997DD0029363AB1000713F6 /* CryptoMVVMTests.xctest */,
+				9997DD0A29363AB1000713F6 /* CryptoMVVMUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,7 +366,6 @@
 			isa = PBXGroup;
 			children = (
 				99ED66F72948C6470084A8A8 /* NetworkingManager.swift */,
-				99ED67002948F6230084A8A8 /* LocalFileManager.swift */,
 				993D79CB2951F53300178A01 /* HapticManager.swift */,
 				99348C00295B2DC800D2FAD1 /* denemee22.swift */,
 			);
@@ -388,9 +385,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9997DCEF29363AAF000713F6 /* investingClone */ = {
+		9997DCEF29363AAF000713F6 /* CryptoMVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9997DD1429363AB1000713F6 /* Build configuration list for PBXNativeTarget "investingClone" */;
+			buildConfigurationList = 9997DD1429363AB1000713F6 /* Build configuration list for PBXNativeTarget "CryptoMVVM" */;
 			buildPhases = (
 				9997DCEC29363AAF000713F6 /* Sources */,
 				9997DCED29363AAF000713F6 /* Frameworks */,
@@ -400,14 +397,14 @@
 			);
 			dependencies = (
 			);
-			name = investingClone;
+			name = CryptoMVVM;
 			productName = investingClone;
-			productReference = 9997DCF029363AAF000713F6 /* investingClone.app */;
+			productReference = 9997DCF029363AAF000713F6 /* CryptoMVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9997DCFF29363AB1000713F6 /* investingCloneTests */ = {
+		9997DCFF29363AB1000713F6 /* CryptoMVVMTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9997DD1729363AB1000713F6 /* Build configuration list for PBXNativeTarget "investingCloneTests" */;
+			buildConfigurationList = 9997DD1729363AB1000713F6 /* Build configuration list for PBXNativeTarget "CryptoMVVMTests" */;
 			buildPhases = (
 				9997DCFC29363AB1000713F6 /* Sources */,
 				9997DCFD29363AB1000713F6 /* Frameworks */,
@@ -418,14 +415,14 @@
 			dependencies = (
 				9997DD0229363AB1000713F6 /* PBXTargetDependency */,
 			);
-			name = investingCloneTests;
+			name = CryptoMVVMTests;
 			productName = investingCloneTests;
-			productReference = 9997DD0029363AB1000713F6 /* investingCloneTests.xctest */;
+			productReference = 9997DD0029363AB1000713F6 /* CryptoMVVMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9997DD0929363AB1000713F6 /* investingCloneUITests */ = {
+		9997DD0929363AB1000713F6 /* CryptoMVVMUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9997DD1A29363AB1000713F6 /* Build configuration list for PBXNativeTarget "investingCloneUITests" */;
+			buildConfigurationList = 9997DD1A29363AB1000713F6 /* Build configuration list for PBXNativeTarget "CryptoMVVMUITests" */;
 			buildPhases = (
 				9997DD0629363AB1000713F6 /* Sources */,
 				9997DD0729363AB1000713F6 /* Frameworks */,
@@ -436,9 +433,9 @@
 			dependencies = (
 				9997DD0C29363AB1000713F6 /* PBXTargetDependency */,
 			);
-			name = investingCloneUITests;
+			name = CryptoMVVMUITests;
 			productName = investingCloneUITests;
-			productReference = 9997DD0A29363AB1000713F6 /* investingCloneUITests.xctest */;
+			productReference = 9997DD0A29363AB1000713F6 /* CryptoMVVMUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -464,7 +461,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9997DCEB29363AAF000713F6 /* Build configuration list for PBXProject "investingClone" */;
+			buildConfigurationList = 9997DCEB29363AAF000713F6 /* Build configuration list for PBXProject "CryptoMVVM" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -477,9 +474,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9997DCEF29363AAF000713F6 /* investingClone */,
-				9997DCFF29363AB1000713F6 /* investingCloneTests */,
-				9997DD0929363AB1000713F6 /* investingCloneUITests */,
+				9997DCEF29363AAF000713F6 /* CryptoMVVM */,
+				9997DCFF29363AB1000713F6 /* CryptoMVVMTests */,
+				9997DD0929363AB1000713F6 /* CryptoMVVMUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -525,7 +522,6 @@
 				99ED66F129473C7A0084A8A8 /* HomeViewModel.swift in Sources */,
 				99348BFD295B0D5600D2FAD1 /* LaunchView.swift in Sources */,
 				99348BF12959006500D2FAD1 /* Date.swift in Sources */,
-				99ED67012948F6230084A8A8 /* LocalFileManager.swift in Sources */,
 				99A8B81E294DE3DC00162BCA /* MarketDataModel.swift in Sources */,
 				99ED66FD2948D24A0084A8A8 /* CoinImageService.swift in Sources */,
 				99A8B81A294B67D100162BCA /* StatisticView.swift in Sources */,
@@ -580,12 +576,12 @@
 /* Begin PBXTargetDependency section */
 		9997DD0229363AB1000713F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9997DCEF29363AAF000713F6 /* investingClone */;
+			target = 9997DCEF29363AAF000713F6 /* CryptoMVVM */;
 			targetProxy = 9997DD0129363AB1000713F6 /* PBXContainerItemProxy */;
 		};
 		9997DD0C29363AB1000713F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9997DCEF29363AAF000713F6 /* investingClone */;
+			target = 9997DCEF29363AAF000713F6 /* CryptoMVVM */;
 			targetProxy = 9997DD0B29363AB1000713F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -785,7 +781,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/investingClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/investingClone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoMVVM";
 			};
 			name = Debug;
 		};
@@ -805,7 +801,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/investingClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/investingClone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoMVVM";
 			};
 			name = Release;
 		};
@@ -848,7 +844,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9997DCEB29363AAF000713F6 /* Build configuration list for PBXProject "investingClone" */ = {
+		9997DCEB29363AAF000713F6 /* Build configuration list for PBXProject "CryptoMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9997DD1229363AB1000713F6 /* Debug */,
@@ -857,7 +853,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9997DD1429363AB1000713F6 /* Build configuration list for PBXNativeTarget "investingClone" */ = {
+		9997DD1429363AB1000713F6 /* Build configuration list for PBXNativeTarget "CryptoMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9997DD1529363AB1000713F6 /* Debug */,
@@ -866,7 +862,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9997DD1729363AB1000713F6 /* Build configuration list for PBXNativeTarget "investingCloneTests" */ = {
+		9997DD1729363AB1000713F6 /* Build configuration list for PBXNativeTarget "CryptoMVVMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9997DD1829363AB1000713F6 /* Debug */,
@@ -875,7 +871,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9997DD1A29363AB1000713F6 /* Build configuration list for PBXNativeTarget "investingCloneUITests" */ = {
+		9997DD1A29363AB1000713F6 /* Build configuration list for PBXNativeTarget "CryptoMVVMUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9997DD1B29363AB1000713F6 /* Debug */,
